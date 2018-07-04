@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7490ad41-9436-4fe5-abe2-d2eebc7a4587" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="UsageTracking.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/introductions/UsageTracking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#844#845#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntroductionsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/spring/aop/introductions/IntroductionsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsageTracked.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/introductions/UsageTracked.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultUsageTracked.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/introductions/DefaultUsageTracked.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <folding>
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BizService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/introductions/BizService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+              <folding>
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-aop-introductions.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-aop-introductions.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoAspect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/aspectj/DemoAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>oneInterface</find>
+      <find>config</find>
+      <find>AspectJPointcutAdvisor</find>
+      <find>execution</find>
+      <find>Biz</find>
+      <find>aspectJ</find>
+      <find>demoPointcut</find>
+      <find>aspectBiz</find>
+      <find>demoAspect</find>
+      <find>defaultAdvisor</find>
+      <find>demoAfterReturningAdvice</find>
+      <find>IllegalArgumentException</find>
+      <find>Intro</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/spring/ioc/beanAnnotation/jsr</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/spring/ioc/beanAnnotation/javabased/StoreConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spring/ioc/beanAnnotation/javabased/Store.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spring/ioc/beanAnnotation/javabased/StringStore.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spring/ioc/beanAnnotation/javabased/IntegerStore.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/ioc/beanAnnotation/javabased/MyDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-beanannotation.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/ioc/beanAnnotation/javabased/StringStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/ioc/beanAnnotation/javabased/IntegerStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/ioc/beanAnnotation/javabased/Store.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spring/ioc/beanAnnotation/javabased/StoreTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/ioc/beanAnnotation/jsr/JsrDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spring/ioc/jsr/JsrDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/ioc/beanAnnotation/javabased/StoreConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spring/ioc/jsr/JsrTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/ioc/beanAnnotation/jsr/JsrService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/schema/advice/AspectBiz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/schema/advice/DemoAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/schema/advice/Fit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/schema/advice/FitImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-aop-schema-advice.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-aop-schema-advisors.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/schema/advisors/ConcurrentOperationExecutor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/schema/advisors/InvokeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/api/BizLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/api/DemoBeforeAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/api/DemoThrowsAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/api/DemoAfterReturningAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/api/InterceptionAroundAdvice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spring/aop/aop/AOPAPITest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/api/DemoMethodInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/api/BizLogicImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-aop-api.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-aop-aspectj.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/spring/aop/aspectj/DemoAspect.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spring/aop/aspectj/AOPAPITest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spring/aop/api/AOPAPITest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spring/aop/aspectj/AspectJTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spring/aop/schema/advice/AspectBizTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/aspectj/DemoMethod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/aspectj/biz/DemoBiz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/aspectj/DemoAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/Introductions/UsageTracked.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/Introductions/DefaultUsageTracked.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/Introductions/BizService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/Introductions/UsageTracking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/introductions/UsageTracking.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spring/aop/introductions/DefaultUsageTracked.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-aop-introductions.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/spring/aop/introductions/IntroductionsTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="662" />
+    <option name="y" value="23" />
+    <option name="width" value="1010" />
+    <option name="height" value="925" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Spring-basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="aspectj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="introductions" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="inte&#9;FILE&#9;file:///Users/nijun/GitHub/Java-Turorails/code/Spring-basics/src/main/java/spring/ioc/beanAnnotation/javabased/IntegerStore.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="test.java.spring.base.UnitTestBase" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20344828" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test.java.spring.aop.schema.advice" />
+      <recent name="test.java.spring.ioc.lifecycle" />
+      <recent name="test.java.spring.ioc.bean" />
+      <recent name="test.java.spring.ioc.injection.service" />
+      <recent name="test.java.spring.ioc.interfaces" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.java.spring.aop.introductions" />
+      <recent name="test.java.spring.aop.aspectj" />
+      <recent name="test.java.spring.aop.aop" />
+      <recent name="test.java.spring.ioc.jsr" />
+      <recent name="test.java.spring.ioc.beanAnnotation.javabased" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="test.java.spring.base.UnitTestBase" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java/spring/aop" />
+      <recent name="$PROJECT_DIR$/src/test/java/spring/ioc" />
+      <recent name="$PROJECT_DIR$/src/main/java/spring/ioc/beanAnnotation" />
+      <recent name="$PROJECT_DIR$/src/main/java/spring/ioc/injection/dao" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.IntroductionsTest.say">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="AOPAPITest.biz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.spring.aop.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.java.spring.aop.api" />
+      <option name="MAIN_CLASS_NAME" value="test.java.spring.aop.api.AOPAPITest" />
+      <option name="METHOD_NAME" value="biz" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AspectBizTest.fit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.spring.aop.schema.advice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.java.spring.aop.schema.advice" />
+      <option name="MAIN_CLASS_NAME" value="test.java.spring.aop.schema.advice.AspectBizTest" />
+      <option name="METHOD_NAME" value="fit" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AspectBizTest.init" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.spring.aop.schema.advice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.java.spring.aop.schema.advice" />
+      <option name="MAIN_CLASS_NAME" value="test.java.spring.aop.schema.advice.AspectBizTest" />
+      <option name="METHOD_NAME" value="init" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AspectJTest.biz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.spring.aop.aspectj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.java.spring.aop.aspectj" />
+      <option name="MAIN_CLASS_NAME" value="test.java.spring.aop.aspectj.AspectJTest" />
+      <option name="METHOD_NAME" value="biz" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="IntroductionsTest.say" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.spring.aop.introductions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.java.spring.aop.introductions" />
+      <option name="MAIN_CLASS_NAME" value="test.java.spring.aop.introductions.IntroductionsTest" />
+      <option name="METHOD_NAME" value="say" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AspectBizTest.init" />
+      <item itemvalue="JUnit.AspectBizTest.fit" />
+      <item itemvalue="JUnit.AOPAPITest.biz" />
+      <item itemvalue="JUnit.AspectJTest.biz" />
+      <item itemvalue="JUnit.IntroductionsTest.say" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IntroductionsTest.say" />
+        <item itemvalue="JUnit.AspectJTest.biz" />
+        <item itemvalue="JUnit.AspectBizTest.fit" />
+        <item itemvalue="JUnit.AOPAPITest.biz" />
+        <item itemvalue="JUnit.AspectBizTest.init" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7490ad41-9436-4fe5-abe2-d2eebc7a4587" name="Default" comment="" />
+      <created>1530599944091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530599944091</updated>
+      <workItem from="1530599945432" duration="39098000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AspectJTest_biz - 2018.07.04 at 18h 11m 27s.xml">
+      <configuration name="AspectJTest.biz" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AspectJTest_biz - 2018.07.04 at 18h 12m 56s.xml">
+      <configuration name="AspectJTest.biz" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AspectJTest_biz - 2018.07.04 at 18h 13m 27s.xml">
+      <configuration name="AspectJTest.biz" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AspectJTest_biz - 2018.07.04 at 18h 14m 11s.xml">
+      <configuration name="AspectJTest.biz" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AspectJTest_biz - 2018.07.04 at 18h 17m 12s.xml">
+      <configuration name="AspectJTest.biz" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AspectJTest_biz - 2018.07.04 at 18h 20m 53s.xml">
+      <configuration name="AspectJTest.biz" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AspectJTest_biz - 2018.07.04 at 18h 21m 10s.xml">
+      <configuration name="AspectJTest.biz" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AspectJTest_biz - 2018.07.04 at 18h 21m 45s.xml">
+      <configuration name="AspectJTest.biz" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AspectJTest_biz - 2018.07.04 at 18h 21m 58s.xml">
+      <configuration name="AspectJTest.biz" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntroductionsTest_say - 2018.07.04 at 18h 47m 41s.xml">
+      <configuration name="IntroductionsTest.say" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="39098000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="662" y="23" width="1010" height="925" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.32894737" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.3562802" />
+      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info id="Designer" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.21177685" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.24983074" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32850242" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.3986842" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/spring/ioc/beanAnnotation/injection/service/InjectionServiceImpl.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/spring/base/UnitTestBase.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/spring/base/UnitTestBase.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/spring/ioc/jsr/JsrService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spring/ioc/jsr/JsrDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/ioc/beanAnnotation/javabased/StoreConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="56" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/ioc/beanAnnotation/jsr/JsrDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/ioc/beanAnnotation/jsr/JsrService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spring/ioc/jsr/JsrTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-autowiring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spring/base/UnitTestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/schema/advice/hah.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/schema/advice/AspectBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-aop-schema-advice.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-aop-schema-advisors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="72" lean-forward="true" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/api/InterceptionAroundAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-aop-4.3.18.RELEASE.jar!/org/springframework/aop/ThrowsAdvice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/api/IntroductionAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-aop-4.3.18.RELEASE.jar!/org/springframework/aop/framework/AdvisedSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+          <folding>
+            <element signature="e#2240#2241#0" expanded="true" />
+            <element signature="e#2311#2312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/api/DemoAfterReturningAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/api/BizLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/api/BizLogicImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/api/DemoMethodInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-aop-4.3.18.RELEASE.jar!/org/springframework/aop/support/DefaultPointcutAdvisor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-aop-api.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="99" column="8" lean-forward="true" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-aop-aspectj.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spring/aop/aspectj/biz/DemoBiz.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spring/aop/aspectj/DemoAspect.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/aspectjrt-1.8.10.jar!/org/aspectj/lang/annotation/Before.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/schema/advisors/InvokeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding>
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/schema/advisors/ConcurrentOperationExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/api/DemoThrowsAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/api/DemoBeforeAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/schema/advice/DemoAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/schema/advice/Fit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/schema/advice/FitImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spring/aop/api/AOPAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spring/aop/schema/advice/AspectBizTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/aspectj/DemoMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/aspectj/biz/DemoBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spring/aop/aspectj/AspectJTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/aspectj/DemoAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spring/aop/introductions/BizService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spring/aop/introductions/UsageTracking.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spring/aop/introductions/UsageTracked.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spring/aop/introductions/DefaultUsageTracked.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spring/aop/introductions/IntroductionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/introductions/UsageTracked.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/introductions/UsageTracking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/introductions/DefaultUsageTracked.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-aop-introductions.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/introductions/BizService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20344828" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Detection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20344828" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20344828" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20344828" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring-basics</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20344828" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.aspectj:aspectjrt:1.8.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20344828" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

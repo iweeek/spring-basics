@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <bean id="demoAspect" class="main.java.spring.aop.schema.advice.DemoAspect"/>
+    <bean id="aspectBiz" class="main.java.spring.aop.schema.advice.AspectBiz"/>
+
+    <aop:config>
+        <!--配置切面aspect-->
+        <aop:aspect id="demoAspectAop" ref="demoAspect">
+            <!--切入点：连接点 + 切面-->
+            <!--<api:pointcut expression="execution(* main.java.spring.api.schema.advice.*Biz.*(..))" id="demoPointcut"/>-->
+            <!--&lt;!&ndash; 前置通知：在某个连接点之前执行的通知，但不能阻止连接点前的执行 &ndash;&gt;-->
+            <!--<api:before method="before" pointcut-ref="demoPointcut"/>-->
+            <!--&lt;!&ndash; 返回后通知：在某个连接点正常返回后执行的通知 &ndash;&gt;-->
+            <!--<api:after-returning method="afterReturning" pointcut-ref="demoPointcut"/>-->
+            <!--&lt;!&ndash; 抛出异常后通知：在方法抛出异常退出时执行的通知 &ndash;&gt;-->
+            <!--<api:after-throwing method="afterThrowing" pointcut-ref="demoPointcut"/>-->
+            <!--&lt;!&ndash; 后通知：当某个连接点退出的时候执行，不论正常返回还是异常退出 &ndash;&gt;-->
+            <!--<api:after method="after" pointcut-ref="demoPointcut"/>-->
+            <!--&lt;!&ndash; 环绕通知：包围连接 &ndash;&gt;-->
+            <!--<api:around method="around" pointcut-ref="demoPointcut"/>-->
+
+            <!--&lt;!&ndash; Advice parameters参数织入 &ndash;&gt;-->
+            <!--<api:around method="aroundInit" pointcut="execution(* main.java.spring.api.schema.advice.AspectBiz.init(String, int))-->
+                <!--and args(bizName, times)"/>-->
+            
+            <aop:declare-parents
+                                types-matching="main.java.spring.aop.schema.advice.AspectBiz"
+                                 implement-interface="main.java.spring.aop.schema.advice.Fit"
+                                 default-impl="main.java.spring.aop.schema.advice.FitImpl"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

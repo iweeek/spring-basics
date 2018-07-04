@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- 0 定义各个advice-->
+    <bean id="demoBeforeAdvice" class="main.java.spring.aop.api.DemoBeforeAdvice"/>
+    <bean id="demoAfterReturningAdvice" class="main.java.spring.aop.api.DemoAfterReturningAdvice"/>
+    <bean id="demoMethodInterceptor" class="main.java.spring.aop.api.DemoMethodInterceptor"/>
+    <bean id="demoThrowsAdvice" class="main.java.spring.aop.api.DemoThrowsAdvice"/>
+
+    <!-- 定义被操作的实际的对象 -->
+    <bean id="bizLogicImplTarget" class="main.java.spring.aop.api.BizLogicImpl"/>
+
+    <!-- 1 使用 pointcutBean 方式-->
+    <!-- 1.1 定义NameMatchMethodPointcut对象 -->
+    <!--<bean id="pointcutBean" class="org.springframework.api.support.NameMatchMethodPointcut">-->
+        <!--&lt;!&ndash; 定义所有匹配方法名以sa开头的方法 &ndash;&gt;-->
+        <!--<property name="mappedNames">-->
+            <!--<list>-->
+                <!--<value>sa*</value>-->
+            <!--</list>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+    <!--&lt;!&ndash; 1.2 Spring AOP默认的Advisor辅助类 &ndash;&gt;-->
+    <!--<bean id="defaultAdvisor" class="org.springframework.api.support.DefaultPointcutAdvisor">-->
+        <!--<property name="advice" ref="demoBeforeAdvice"/>-->
+        <!--<property name="pointcut" ref="pointcutBean"/>-->
+    <!--</bean>-->
+
+    <!--&lt;!&ndash; 1.3 定义代理对象 &ndash;&gt;-->
+    <!--<bean id="bizLogicImpl" class="org.springframework.api.framework.ProxyFactoryBean">-->
+        <!--&lt;!&ndash; 1.3.0 没有显式指定接口，ProxyFactoryBean会自动去扫描真实对象BizLogicImpl所实现的接口 &ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="proxyInterfaces">&ndash;&gt;-->
+            <!--&lt;!&ndash;<value>main.java.spring.api.api.BizLogic</value>&ndash;&gt;-->
+        <!--&lt;!&ndash;</property>&ndash;&gt;-->
+        <!--&lt;!&ndash; 1.3.1 定义真正返回的对象 &ndash;&gt;-->
+        <!--<property name="target" ref="bizLogicImplTarget"/>-->
+        <!--&lt;!&ndash; 1.3.2 定义拦截方法&ndash;&gt;-->
+        <!--<property name="interceptorNames">-->
+            <!--<list>-->
+                <!--&lt;!&ndash;<value>defaultAdvisor</value>&ndash;&gt;-->
+                <!--&lt;!&ndash;<value>demoAfterReturningAdvice</value>&ndash;&gt;-->
+                <!--&lt;!&ndash;<value>demoMethodInterceptor</value>&ndash;&gt;-->
+                <!--&lt;!&ndash;<value>demoThrowsAdvice</value>&ndash;&gt;-->
+                <!--&lt;!&ndash; 1.3.3 使用*做统配，匹配所有拦截器（Interceptor）加入通知链 &ndash;&gt;-->
+                <!--<value>demo*</value>-->
+            <!--</list>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+    <!--2、不使用 NameMatchMethodPointcut 的方式-->
+    <!--<bean id="bizLogicImpl" class="org.springframework.api.framework.ProxyFactoryBean">-->
+        <!--&lt;!&ndash; 2.1 明确指定了实现的接口，一定走JDK代理 &ndash;&gt;-->
+        <!--<property name="proxyInterfaces">-->
+            <!--<value>main.java.spring.api.api.BizLogic</value>-->
+        <!--</property>-->
+        <!--&lt;!&ndash; 2.2 真正返回的对象 &ndash;&gt;-->
+        <!--<property name="target">-->
+            <!--&lt;!&ndash; 2.2.1 使用匿名内部bean来隐藏目标-->
+            <!--注释掉最上面的 bizLogicImplTarget，然后在这里定义下面这句 &ndash;&gt;-->
+            <!--<bean class="main.java.spring.api.api.BizLogicImpl"/>-->
+            <!--&lt;!&ndash; 2.2.2 直接使用bean&ndash;&gt;-->
+            <!--&lt;!&ndash;<ref bean="bizLogicImplTarget"/>&ndash;&gt;-->
+        <!--</property>-->
+        <!--&lt;!&ndash; 2.3 处理拦截方法的 advice &ndash;&gt;-->
+        <!--<property name="interceptorNames">-->
+            <!--<list>-->
+                <!--<value>demoBeforeAdvice</value>-->
+                <!--<value>demoAfterReturningAdvice</value>-->
+                <!--<value>demoMethodInterceptor</value>-->
+                <!--<value>demoThrowsAdvice</value>-->
+            <!--</list>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+
+    <!-- 3 简化Proxy定义，父子bean-->
+    <bean id="baseProxyBean" class="org.springframework.aop.framework.ProxyFactoryBean"
+          lazy-init="true" abstract="true"></bean>
+
+    <bean id="bizLogicImpl" parent="baseProxyBean">
+        <property name="target">
+            <bean class="main.java.spring.aop.api.BizLogicImpl"></bean>
+        </property>
+        <property name="proxyInterfaces">
+            <value>main.java.spring.aop.api.BizLogic</value>
+        </property>
+        <property name="interceptorNames">
+            <list>
+                <value>demoBeforeAdvice</value>
+                <value>demoAfterReturningAdvice</value>
+                <value>demoMethodInterceptor</value>
+                <value>demoThrowsAdvice</value>
+            </list>
+        </property>
+    </bean>
+
+</beans>
